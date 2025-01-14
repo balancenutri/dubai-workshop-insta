@@ -110,7 +110,7 @@ const RazorpayPayment = ({ setModal }) => {
         amount: amount * 100,
         currency: currency,
         name: name,
-        description: "Payment for your Test",
+        description: "Payment for Dubai Workshop",
         handler: function (response) {
           console.log(response);
           navigate("/congrats", {
@@ -125,9 +125,6 @@ const RazorpayPayment = ({ setModal }) => {
           name: name,
           email: email,
           contact: `+${phoneCode}${phoneNumber}`,
-        },
-        notes: {
-          address: "Test address",
         },
         theme: {
           color: "#3399cc",
