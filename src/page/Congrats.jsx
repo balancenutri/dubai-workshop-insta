@@ -99,7 +99,7 @@ function App() {
               </div>
               <div>
                 <p className="md:text-base text-gray-800 font-semibold">
-                  India Club, Dubai
+                  Dubai
                 </p>
               </div>
             </div>
